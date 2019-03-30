@@ -15,7 +15,7 @@ div.section {
   border: 1px solid black;
   background-color: #d9d9d9;
   width: auto;    
-  margin: 15px;   
+  margin: 15px 15px 30px 15px;   
   padding: 10px;
   position: relative;
 }
@@ -90,6 +90,9 @@ p {
   .col-lg-12 {
     width: 100%;
   }
+  div.section {    
+    margin: 15px;   
+  }
 }
 
 /********** Medium devices only **********/
@@ -132,5 +135,8 @@ p {
   }
   .col-md-12 {
     width: 100%;
+  }  
+  div.section {    
+    margin: 15px;   
   }
 }
